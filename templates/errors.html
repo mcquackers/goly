@@ -1,0 +1,15 @@
+{{define "errors"}}
+{{if .Errors}}
+<span>Errors</span>
+<div class='errors'>
+  {{$numErrs := len .Errors}}
+  {{if le $numErrs 3}}
+  {{range .Errors }}
+  <span class='error'>{{.}}</span>
+  {{end}}
+  {{else}}
+  <span class='error'>{{len .Errors}} Errors.  Must be investigated.</span>
+  {{end}}
+</div>
+{{end}}
+{{end}}

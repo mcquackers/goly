@@ -1,0 +1,173 @@
+<testsuite name="Mocha Tests" tests="80" failures="18" errors="18" skipped="0" timestamp="Wed, 08 Jun 2016 14:37:48 GMT" time="2264.009">
+<testcase classname="BEHAVIOR - SONIC-3995-apply-click-attribute-filter-to-click-behavior - bmcqueen @regression" name="Apply click attribute filter to click behavior" time="23.92"/>
+<testcase classname="BEHAVIOR - SONIC-3996-add-impression-behavior-regression-test - bmcqueen @regression" name="begin test steps here" time="16.925"/>
+<testcase classname="BEHAVIOR SONIC-4321 @regression" name="Save segments with less than operator" time="28.492"/>
+<testcase classname="BEHAVIOR SONIC-4430 @regression" name="Test that DMA / Market values populate" time="21.045"/>
+<testcase classname="BEHAVIOR SONIC-4579 @regression" name="Add and remove Pixels by clicking on the name" time="14.282"/>
+<testcase classname="BEHAVIOR SONIC-4885: Attribute Lists for clicks and impressions in a segment @regression" name="should not list strategy in the add click filters menu" time="34.52"/>
+<testcase classname="BEHAVIOR SONIC-4885: Attribute Lists for clicks and impressions in a segment @regression" name="should not list strategy in the add impression filters menu" time="26.651"/>
+<testcase classname="BEHAVIOR SONIC-5202 : Custom attribute filter shows too many attributes @regression" name="Custom attributes for Advertiser_1" time="24.453"/>
+<testcase classname="BEHAVIOR SONIC-5202 : Custom attribute filter shows too many attributes @regression" name="Custom attributes for Advertiser_2" time="24.271"/>
+<testcase classname="BEHAVIOR SONIC-5275 @regression" name="Check Cross Advertiser works" time="13.445"/>
+<testcase classname="BEHAVIOR SONIC-5279 @regression" name="Confirm search functionality removed from Add Behavior" time="24.87"/>
+<testcase classname="BEHAVIOR SONIC-5283 @regression" name="Add Behavior Screen should focus on initial advertiser" time="9.967"/>
+<testcase classname="BEHAVIOR - SONIC-5600 - pdas @regression" name="Custom attribute test at the pixel level for behavior1" time="17.066"/>
+<testcase classname="BEHAVIOR - SONIC-5600 - pdas @regression" name="Custom attribute test at the pixel level for behavior2" time="18.81"/>
+<testcase classname="BEHAVIOR - SONIC-5610 - bmcqueen @regression" name="Size segment with numeric custom attribute" time="34.786"><failure><![CDATA[Sizing the segment threw an error
+Error: Sizing the segment threw an error
+    at generator-integrated-tests-mediamath/generators/app/templates/test-buddies/segment-buddy.js:85:27
+    at Array.forEach (native)
+From: Task: BEHAVIOR - SONIC-5610 - bmcqueen @regression Size segment with numeric custom attribute]]></failure></testcase>
+<testcase classname="LOGIN Logon page test @regression" name="should show logon page" time="2.495"/>
+<testcase classname="LOGIN Logon page test @regression" name="should fail to login" time="1.052"/>
+<testcase classname="LOGIN Logon page test @regression" name="should show logon page" time="2.557"/>
+<testcase classname="LOGIN Logon page test @regression" name="should successfully log in" time="0.621"/>
+<testcase classname="PIXEL - SONIC-7417 - bmcqueen @regression" name="SONIC-7417 Pixel Rename Test" time="4.78"/>
+<testcase classname="PIXEL - SONIC-7418-toggle-drawer - bmcqueen @regression" name="SONIC-7418 Toggle pixel drawer tests" time="6.86"/>
+<testcase classname="PIXEL SONIC-4360 @regression" name="should be on the segments page" time="1.76"/>
+<testcase classname="PIXEL SONIC-4360 @regression" name="should hit the create segment page" time="6.119"/>
+<testcase classname="PIXEL SONIC-4360 @regression" name="be able to name segment" time="1.693"/>
+<testcase classname="PIXEL SONIC-4360 @regression" name="be able to set advertiser" time="4.652"/>
+<testcase classname="PIXEL SONIC-4360 @regression" name="should hit the Add Behavior popup" time="0.001"/>
+<testcase classname="PIXEL SONIC-4360 @regression" name="should successfully browse to Event Pixel branch" time="0.001"/>
+<testcase classname="PIXEL SONIC-4360 @regression" name="should find the active pixel" time="7.992"/>
+<testcase classname="PIXEL SONIC-4360 @regression" name="should not find the inactive pixel" time="20.233"/>
+<testcase classname="SEGMENT-MAKE SONIC-4386 @regression Should be able to size a segment" name="Segment Size should be a number - New Segment" time="23.81"/>
+<testcase classname="SEGMENT-MAKE SONIC-4386 @regression Should be able to size a segment" name="Segment Size should be a number - Edit Segment" time="16.272"/>
+<testcase classname="SEGMENT-LIST - SONIC-4564 @regression" name="Test to make sure Agency Filter works" time="7.604"/>
+<testcase classname="SEGMENT-LIST SONIC-4857-V2 @regression" name="Compare first listed segment between orgs; org/segment filtering" time="8.825"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5582-basic-edit-tests - bmcqueen @regression" name="Set up test segment" time="29.46"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5582-basic-edit-tests - bmcqueen @regression" name="Should not have a save status" time="0.023"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5582-basic-edit-tests - bmcqueen @regression" name="Should not be able to save with no changes" time="0.032"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5582-basic-edit-tests - bmcqueen @regression" name="Should be able to add a behavior" time="0.05"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5582-basic-edit-tests - bmcqueen @regression" name="Should not be able to save with no name" time="1.531"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5582-basic-edit-tests - bmcqueen @regression" name="Should be able to save after a change to name" time="2.276"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5582-basic-edit-tests - bmcqueen @regression" name="Should have a disabled advertiser dropdown" time="0.08"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5582-basic-edit-tests - bmcqueen @regression" name="Should not have an advertiser dropdown that unlocks" time="0.181"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5582-basic-edit-tests - bmcqueen @regression" name="Should not be able to save with no behaviors" time="0.023"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5582-basic-edit-tests - bmcqueen @regression" name="Should be able to save after adding a behavior" time="13.95"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5609: Custom Attributes No Filter Sizing - Jeremy Sklarsky @regression" name="size a segment with a where behavior Pixel Custom Attributes apply, when no filtering on the attribute is performed" time="19.34"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5609: Custom Attributes No Filter Sizing - Jeremy Sklarsky @regression" name="size a segment with a behavior where Advertiser Custom Attributes apply, when no filtering on the attribute is performed" time="22.674"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5609: Custom Attributes No Filter Sizing - Jeremy Sklarsky @regression" name="size a segment with a behavior where both Advertiser and Pixel Custom Attributes apply, when no filtering on the attribute is performed" time="24.3"/>
+<testcase classname="SEGMENT-LIST - SONIC-5660-duplicate-segment - Jeremy Sklarsky @regression" name="Can duplicate a segment from the segments list page" time="31.094"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5661: Save and add another segment will default to same advertiser - Jeremy Sklarsky @regression" name="When saving and adding another segment, the same advertiser is preselected" time="20.492"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5661: Save and add another segment will default to same advertiser - Jeremy Sklarsky @regression" name="When saving and adding another segment from an existing segment, the same advertiser is preselected" time="16.047"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5923 - bmcqueen @regression" name="Should have no sizing warnings" time="14.426"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5923 - bmcqueen @regression" name="Should have a successful sizing" time="8.197"/>
+<testcase classname="SEGMENT-MAKE - SONIC-5923 - bmcqueen @regression" name="Should have a sizing warning" time="8.792"/>
+<testcase classname="SEGMENT-LIST - SONIC-6152-targeting-segments - bmcqueen @regression" name="Create segment to target" time="24.988"/>
+<testcase classname="SEGMENT-LIST - SONIC-6152-targeting-segments - bmcqueen @regression" name="Navigate the campaigns tab to edit a campaign" time="4.362"/>
+<testcase classname="SEGMENT-LIST - SONIC-6152-targeting-segments - bmcqueen @regression" name="Should be able to target a segment" time="11.788"/>
+<testcase classname="SEGMENT-LIST - SONIC-6152-targeting-segments - bmcqueen @regression" name="Confirm segment targeted" time="4.998"/>
+<testcase classname="SEGMENT-LIST - SONIC-6152-targeting-segments - bmcqueen @regression" name="Target Segment icon should show a dropdown when clicked" time="1.13"/>
+<testcase classname="SEGMENT-LIST - SONIC-6493 - bmcqueen @regression @v2" name="Switching an org should cause segments index to change" time="8.866"/>
+<testcase classname="SEGMENT-LIST - SONIC-6493 - bmcqueen @regression @v2" name="Should still switch after creating a segment" time="33.591"/>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing CLICKS - bmcqueen @v2 @regression" name="Add Behavior - Save - Verify" time="36.161"/>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing CLICKS - bmcqueen @v2 @regression" name="Add Behavior - Save - Add Behavior - Save - Verify" time="52.87"><failure><![CDATA[Missed status text.  This method needs to be fixed
+Error: Missed status text.  This method needs to be fixed
+    at generator-integrated-tests-mediamath/generators/app/templates/test-buddies/segment-buddy.js:192:33
+From: Task: SEGMENT-MAKE - SONIC-6569-v2-save-testing CLICKS - bmcqueen @v2 @regression Add Behavior - Save - Add Behavior - Save - Verify]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing CLICKS - bmcqueen @v2 @regression" name="Add Behavior - Save Add Behavior - Save - Add Behavior - Save - Verify" time="5.543"><failure><![CDATA[no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;id&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;add-segment&amp;quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;add-segment&quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+    at Array.forEach (native)
+From: Task: WebElement.click()
+    at null._onTimeout (generator-integrated-tests-mediamath/generators/app/templates/test-buddies/segment-buddy.js:241:59)
+From: Task: SEGMENT-MAKE - SONIC-6569-v2-save-testing CLICKS - bmcqueen @v2 @regression Add Behavior - Save Add Behavior - Save - Add Behavior - Save - Verify]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing CLICKS - bmcqueen @v2 @regression" name="Add Add Save Swap Save Verify" time="5.559"><failure><![CDATA[no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;id&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;add-segment&amp;quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;add-segment&quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+    at Array.forEach (native)
+From: Task: WebElement.click()
+    at null._onTimeout (generator-integrated-tests-mediamath/generators/app/templates/test-buddies/segment-buddy.js:241:59)
+From: Task: SEGMENT-MAKE - SONIC-6569-v2-save-testing CLICKS - bmcqueen @v2 @regression Add Add Save Swap Save Verify]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing CLICKS - bmcqueen @v2 @regression" name="Add Add Save Delete Save Verify" time="5.52"><failure><![CDATA[no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;id&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;add-segment&amp;quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;add-segment&quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+    at Array.forEach (native)
+From: Task: WebElement.click()
+    at null._onTimeout (generator-integrated-tests-mediamath/generators/app/templates/test-buddies/segment-buddy.js:241:59)
+From: Task: SEGMENT-MAKE - SONIC-6569-v2-save-testing CLICKS - bmcqueen @v2 @regression Add Add Save Delete Save Verify]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing CLICKS - bmcqueen @v2 @regression" name="SONIC-6575 Edit - Add Behavior - Save - Add Behavior - Save - Verify" time="100.009"><failure><![CDATA[timeout of 100000ms exceeded. Ensure the done() callback is being called in this test.
+Error: timeout of 100000ms exceeded. Ensure the done() callback is being called in this test.]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing CLICKS - bmcqueen @v2 @regression" name="SONIC-6576 Edit - Delete - Move - Verify" time="100.009"><failure><![CDATA[timeout of 100000ms exceeded. Ensure the done() callback is being called in this test.
+Error: timeout of 100000ms exceeded. Ensure the done() callback is being called in this test.]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing EPIXELS - bmcqueen @v2 @regression" name="Add Behavior - Save - Verify" time="32.622"/>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing EPIXELS - bmcqueen @v2 @regression" name="Add Behavior - Save - Add Behavior - Save - Verify" time="52.134"/>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing EPIXELS - bmcqueen @v2 @regression" name="Add Behavior - Save Add Behavior - Save - Add Behavior - Save - Verify" time="51.559"><failure><![CDATA[Missed status text.  This method needs to be fixed
+Error: Missed status text.  This method needs to be fixed
+    at generator-integrated-tests-mediamath/generators/app/templates/test-buddies/segment-buddy.js:407:33
+From: Task: SEGMENT-MAKE - SONIC-6569-v2-save-testing EPIXELS - bmcqueen @v2 @regression Add Behavior - Save Add Behavior - Save - Add Behavior - Save - Verify]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing EPIXELS - bmcqueen @v2 @regression" name="Add Add Save Swap Save Verify" time="5.525"><failure><![CDATA[no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;id&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;add-segment&amp;quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;add-segment&quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+    at Array.forEach (native)
+From: Task: WebElement.click()
+    at null._onTimeout (generator-integrated-tests-mediamath/generators/app/templates/test-buddies/segment-buddy.js:241:59)
+From: Task: SEGMENT-MAKE - SONIC-6569-v2-save-testing EPIXELS - bmcqueen @v2 @regression Add Add Save Swap Save Verify]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing EPIXELS - bmcqueen @v2 @regression" name="Add Add Save Delete Save Verify" time="5.55"><failure><![CDATA[no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;id&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;add-segment&amp;quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;add-segment&quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+    at Array.forEach (native)
+From: Task: WebElement.click()
+    at null._onTimeout (generator-integrated-tests-mediamath/generators/app/templates/test-buddies/segment-buddy.js:241:59)
+From: Task: SEGMENT-MAKE - SONIC-6569-v2-save-testing EPIXELS - bmcqueen @v2 @regression Add Add Save Delete Save Verify]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing EPIXELS - bmcqueen @v2 @regression" name="SONIC-6575 Edit - Add Behavior - Save - Add Behavior - Save - Verify" time="70.003"><failure><![CDATA[timeout of 70000ms exceeded. Ensure the done() callback is being called in this test.
+Error: timeout of 70000ms exceeded. Ensure the done() callback is being called in this test.]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing EPIXELS - bmcqueen @v2 @regression" name="SONIC-6576 Edit - Delete - Move - Verify" time="70.004"><failure><![CDATA[timeout of 70000ms exceeded. Ensure the done() callback is being called in this test.
+Error: timeout of 70000ms exceeded. Ensure the done() callback is being called in this test.]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing IMPRESSIONS - bmcqueen @v2 @regression" name="Add Behavior - Save - Verify" time="37.139"/>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing IMPRESSIONS - bmcqueen @v2 @regression" name="Add Behavior - Save - Add Behavior - Save - Verify" time="51.325"><failure><![CDATA[Missed status text.  This method needs to be fixed
+Error: Missed status text.  This method needs to be fixed
+    at generator-integrated-tests-mediamath/generators/app/templates/test-buddies/segment-buddy.js:192:33
+From: Task: SEGMENT-MAKE - SONIC-6569-v2-save-testing IMPRESSIONS - bmcqueen @v2 @regression Add Behavior - Save - Add Behavior - Save - Verify]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing IMPRESSIONS - bmcqueen @v2 @regression" name="Add Behavior - Save Add Behavior - Save - Add Behavior - Save - Verify" time="5.559"><failure><![CDATA[no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;id&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;add-segment&amp;quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;add-segment&quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+    at Array.forEach (native)
+From: Task: WebElement.click()
+    at null._onTimeout (generator-integrated-tests-mediamath/generators/app/templates/test-buddies/segment-buddy.js:241:59)
+From: Task: SEGMENT-MAKE - SONIC-6569-v2-save-testing IMPRESSIONS - bmcqueen @v2 @regression Add Behavior - Save Add Behavior - Save - Add Behavior - Save - Verify]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing IMPRESSIONS - bmcqueen @v2 @regression" name="Add Add Save Swap Save Verify" time="5.56"><failure><![CDATA[no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;id&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;add-segment&amp;quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;add-segment&quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+    at Array.forEach (native)
+From: Task: WebElement.click()
+    at null._onTimeout (generator-integrated-tests-mediamath/generators/app/templates/test-buddies/segment-buddy.js:241:59)
+From: Task: SEGMENT-MAKE - SONIC-6569-v2-save-testing IMPRESSIONS - bmcqueen @v2 @regression Add Add Save Swap Save Verify]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing IMPRESSIONS - bmcqueen @v2 @regression" name="Add Add Save Delete Save Verify" time="5.542"><failure><![CDATA[no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;id&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;add-segment&amp;quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;add-segment&quot;}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Mac OS X 10.10.3 x86_64)
+    at Array.forEach (native)
+From: Task: WebElement.click()
+    at null._onTimeout (generator-integrated-tests-mediamath/generators/app/templates/test-buddies/segment-buddy.js:241:59)
+From: Task: SEGMENT-MAKE - SONIC-6569-v2-save-testing IMPRESSIONS - bmcqueen @v2 @regression Add Add Save Delete Save Verify]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing IMPRESSIONS - bmcqueen @v2 @regression" name="SONIC-6575 Edit - Add Behavior - Save - Add Behavior - Save - Verify" time="90.007"><failure><![CDATA[timeout of 90000ms exceeded. Ensure the done() callback is being called in this test.
+Error: timeout of 90000ms exceeded. Ensure the done() callback is being called in this test.]]></failure></testcase>
+<testcase classname="SEGMENT-MAKE - SONIC-6569-v2-save-testing IMPRESSIONS - bmcqueen @v2 @regression" name="SONIC-6576 Edit - Delete - Move - Verify" time="90.008"><failure><![CDATA[timeout of 90000ms exceeded. Ensure the done() callback is being called in this test.
+Error: timeout of 90000ms exceeded. Ensure the done() callback is being called in this test.]]></failure></testcase>
+</testsuite>

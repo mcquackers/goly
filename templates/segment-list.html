@@ -1,0 +1,13 @@
+{{define "segment-list"}}
+<span class='test-name'>Span for segment-list</span>
+<div class='image'>
+  <img src="img/segment-list.png" alt="segment-list">
+  <div class='results'>
+    <span class='success'>{{.SegmentList}}</span>
+    {{if .SegmentListFail}}
+    <span class='slash'>/</span>
+    <span class='failure'>{{.SegmentListFail}}</span>
+    {{end}}
+  </div>
+</div>
+{{end}}

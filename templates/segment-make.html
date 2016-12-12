@@ -1,0 +1,13 @@
+{{define "segment-make"}}
+<span class='test-name'>Segment Create/Edit</span>
+<div class='image'>
+  <img src="img/segment-make.png" alt="segment-make">
+  <div class='results'>
+    <span class='success'>{{.SegmentMake}}</span>
+    {{if .SegmentMakeFail}}
+    <span class='slash'>/</span>
+    <span class='failure'>{{.SegmentMakeFail}}</span>
+    {{end}}
+  </div>
+</div>
+{{end}}

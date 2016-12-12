@@ -1,0 +1,13 @@
+{{define "behavior"}}
+<span class='test-name'>Behavior</span>
+<div class='image'>
+  <img src="img/edit-behavior.png" alt="behavior">
+  <div class='results'>
+    <span class='success'>{{.Behavior}}</span>
+    {{if .BehaviorFail}}
+    <span class='slash'>/</span>
+    <span class='failure'>{{.BehaviorFail}}</span>
+    {{end}}
+  </div>
+</div>
+{{end}}

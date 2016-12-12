@@ -1,0 +1,13 @@
+{{define "pixel"}}
+<span class='test-name'>Pixel</span>
+<div class='image'>
+  <img src="img/pixel.png" alt="pixel">
+  <div class='results'>
+    <span class='success'>{{.Pixel}}</span>
+    {{if .PixelFail}}
+    <span class='slash'>/</span>
+    <span class='failure'>{{.PixelFail}}</span>
+    {{end}}
+  </div>
+</div>
+{{end}}

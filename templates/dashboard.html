@@ -1,0 +1,28 @@
+{{define "dashboard"}}
+<link rel='stylesheet' type='text/css' href='resources/goly.css'>
+<div id='main'>
+  <div id='row-1'>
+    <div id='segment-make' class='test-display'>
+      {{template "segment-make" .}}
+    </div>
+    <div id='segment-list' class='test-display'>
+      {{template "segment-list" .}}
+    </div>
+  </div>
+  <div id='row-2'>
+    <div id='behavior' class='test-display'>
+      {{template "behavior" .}}
+    </div>
+    <div id='pixel' class='test-display'>
+      {{template "pixel" .}}
+    </div>
+  </div>
+  <div id='timestamp'>
+    <span>TIMESTAMP</span>
+    <span>{{.Timestamp}}</span>
+  </div>
+  <div id='error-display'>
+    {{template "errors" .}}
+  </div>
+</div>
+{{end}}
